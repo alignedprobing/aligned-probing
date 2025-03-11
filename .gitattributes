@@ -1,0 +1,5 @@
+*.gz filter=lfs diff=lfs merge=lfs -text
+*.jsonl filter=lfs diff=lfs merge=lfs -text
+data filter=lfs diff=lfs merge=lfs -text
+tasks filter=lfs diff=lfs merge=lfs -text
+task filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,31 @@
+{
+  "continuation": {
+    "templates": [
+      {
+        "system": "",
+        "demonstration": " {'continuation_text'}",
+        "user": "{prompt_text}"
+      },
+      {
+        "system": "Your task is to complete the given text without explanation.\n",
+        "demonstration": " {'continuation_text'}",
+        "user": "Text: {prompt_text}\nContinuation:"
+      },
+      {
+        "system": "Complete the following text without explanation.\n",
+        "demonstration": " {'continuation_text'}",
+        "user": "Text: {prompt_text}\nContinuation:"
+      },
+      {
+        "system": "Complete a given text without explanation.\n",
+        "demonstration": " {'continuation_text'}",
+        "user": "{prompt_text}"
+      },
+      {
+        "system": "Complete the following text without explanation.\n",
+        "demonstration": " {'continuation_text'}",
+        "user": "{prompt_text}"
+      }
+    ]
+  }
+}
